@@ -1,0 +1,16 @@
+Name: wBull
+Version: 0.1
+Synopsis: A bitcoin trading bot.
+Authors: Prashant Singh Pawar <prashantpawar@gmail.com>
+License: https://github.com/prashantpawar/wbull/blob/master/LICENSE
+
+Description: wBull is a bitcoin and other cryptocurrencies trading bot.
+Homepage: http://github.com/prashantpawar/wbull
+
+OASISFormat: 0.4
+BuildTools: ocamlbuild
+Plugins: META (0.4), DevFiles (0.4)
+
+Executable "bot"
+  Path: src
+  MainIs: Main.ml
