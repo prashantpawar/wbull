@@ -13,4 +13,6 @@ Plugins: META (0.4), DevFiles (0.4)
 
 Executable "bot"
   Path: src
-  MainIs: Main.ml
+  MainIs: main.ml
+  CompiledObject: best
+  BuildDepends: cohttp, lwt, cohttp-lwt, cohttp-lwt-unix
